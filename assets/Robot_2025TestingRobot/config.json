@@ -1,0 +1,48 @@
+{
+	"name": "2025_TestingBot",
+	"rotations": [
+		{
+			"axis": "x",
+			"degrees": 90
+		},
+		{
+			"axis": "z",
+			"degrees": 180
+		}
+	],
+	"position": [0, 0, 0.035],
+	"cameras": [
+		{
+			"name": "left cam",
+			"rotations": [
+				{
+					"axis": "z",
+					"degrees": -25
+				},
+				{
+					"axis": "x",
+					"degrees": 20
+				}
+			],
+			"position": [0.355, 0.135, 0.127],
+			"resolution": [640, 400],
+			"fov": 95
+		},
+		{
+			"name": "right cam",
+			"rotations": [
+				{
+					"axis": "z",
+					"degrees": 25
+				},
+				{
+					"axis": "x",
+					"degrees": 20
+				}
+			],
+			"position": [0.355, -0.135, 0.127],
+			"resolution": [640, 400],
+			"fov": 95
+		}
+	]
+}
